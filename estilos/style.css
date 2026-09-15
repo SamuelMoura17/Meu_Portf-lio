@@ -30,6 +30,7 @@
   --destaque: #0077ff;
   --destaque-inverso: #66bbff;
   --fundo-card: #ffffff;
+  --span: #000000;
 
 }
 
@@ -52,6 +53,7 @@ body.escuro{
   --destaque: #34d399;
   --destaque-inverso: #7ee8c2;
   --fundo-card: #444444;
+  --span: #34d399;
 
   transition: background-color 0.3s, color 0.3s;
 
@@ -313,6 +315,18 @@ div#skill-conteiner .info{
   flex-direction: column;
 
   gap: 20px;
+
+}
+
+span#obs{
+
+  display: block;
+
+  font-size: 12px;
+
+  margin-bottom: 15px;
+
+  color: var(--span);
 
 }
 
